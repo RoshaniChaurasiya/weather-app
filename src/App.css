@@ -1,9 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .weather-dashboard-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #edf2fb;
+  background-color: #9fbef88a;
 }
 
 .weather-dashboard {
@@ -17,9 +22,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #c1d3fe;
+  background-color: #9fbbfe;
 }
 
+.weather-dashboard h1{
+  margin: 20px 0px;
+}
 .weather-dashboard input {
   width: calc(100% - 90px);
   padding: 10px;
